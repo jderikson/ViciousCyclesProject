@@ -1,0 +1,55 @@
+/* BASE */
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  line-height: 1.4;
+  height: 100%;  
+  margin: 0;
+  padding: 0;
+}
+
+/* Home Page Container */
+.home-container {
+    padding-top: 150px;
+    margin: 0 25px;
+    color: #000000;
+}
+ a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+    color: gray;
+}
+
+/* HEADER */
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 100px;
+  
+  line-height: 100px;
+  color: #fff;
+  background-color: #000000;
+}
+
+.header__logo {
+  font-weight: 700;
+  padding: 0 25px;
+  float: left;
+}
+
+/* MENU */
+.menu {
+  float: right;
+  color: #ffffff;
+  padding-right: 25px;
+} 
+.menu-item {
+    padding-right: 20px;
+}
+  
+
