@@ -7,14 +7,15 @@ body {
   height: 100%;  
   margin: 0;
   padding: 0;
+  background-color: #E7FBFB;
 }
 
-/* Home Page Container */
-.home-container {
-    padding-top: 150px;
-    margin: 0 25px;
-    color: #000000;
-}
+h1 {
+    font-size: 4em;
+    text-align: center;
+    color: #010B5B;
+  }
+  
  a {
   text-decoration: none;
   color: inherit;
@@ -51,5 +52,13 @@ a:hover {
 .menu-item {
     padding-right: 20px;
 }
-  
 
+/* Home Page Container */
+.home-container {
+    max-width: 1000px;
+    padding-top: 12%;
+    margin: auto;
+    color: #000000;
+    text-align: center;
+}
+  
